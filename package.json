@@ -7,6 +7,9 @@
     "test": "jest --verbose",
     "test:watch": "npm run test -- --watch --coverage"
   },
+  "jest": {
+    "testEnvironment": "node"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/treem0/lab-mongoose-models.git"
